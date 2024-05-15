@@ -10,7 +10,6 @@ public class Passagem {
         this.dataVoo = dataVoo;
     }
 
-    // Getters e Setters
     public int getNumeroAssento() {
         return numeroAssento;
     }
