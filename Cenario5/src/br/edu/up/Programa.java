@@ -1,6 +1,12 @@
 package br.edu.up;
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+import br.edu.up.controller.EventoController;
+import br.edu.up.view.EventoView;
+
+public class Programa {
+    public static void main(String[] args) {
+        EventoView view = new EventoView();
+        EventoController controller = new EventoController(view);
+        controller.iniciar();
     }
 }
