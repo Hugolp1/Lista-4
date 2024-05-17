@@ -1,12 +1,11 @@
 package br.edu.up;
 
-import br.edu.up.controller.ControleAcademicoController;
-import br.edu.up.view.ControleAcademicoView;
+import br.edu.up.controller.ClienteController;
 
 public class Programa {
     public static void main(String[] args) {
-        ControleAcademicoView view = new ControleAcademicoView();
-        ControleAcademicoController controller = new ControleAcademicoController(view);
+        ClienteController controller = new ClienteController(100);
         controller.iniciar();
     }
 }
+
