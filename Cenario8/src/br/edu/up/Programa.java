@@ -6,7 +6,7 @@ import br.edu.up.view.ControleAcademicoView;
 public class Programa {
     public static void main(String[] args) {
         ControleAcademicoView view = new ControleAcademicoView();
-        ControleAcademicoController controller = new ControleAcademicoController(view);
+        ControleAcademicoController controller = new ControleAcademicoController();
         controller.iniciar();
     }
 }
